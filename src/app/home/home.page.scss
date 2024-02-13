@@ -1,0 +1,53 @@
+ion-header {
+  ion-toolbar {
+    --background: #b7b7a4;
+    color: #fff;
+  }
+}
+
+ion-footer {
+  ion-toolbar {
+    --background: #b7b7a4;
+    color: #fff;
+
+  }
+}
+
+// Form Styles
+ion-item {
+  margin-bottom: 15px;
+}
+
+ion-button {
+  margin-top: 15px;
+  background-color: #b7b7a4;
+  color:#fff;
+}
+
+// Toggle the background color on focus for input fields
+ion-input:focus {
+  --background: #fff;
+}
+
+// Set a background color for the active state of the buttons
+ion-button:active {
+  --background: #b7b7a4; // replace with a darker color
+}
+
+// Adjustments for List Layout
+ion-list {
+  padding: 20px; // Add padding to the lists
+  background-color: #fff; // Set a white background for the lists
+  border-radius: 8px; // Add border-radius to the lists
+}
+
+// Adjustments for Labels
+ion-label {
+  color: #000000;
+}
+
+// Adjustments for Disabled Button
+ion-button[disabled] {
+  --background: #b2b2b2; // Set a gray background for disabled buttons
+  cursor: not-allowed; // Change cursor for disabled buttons
+}
